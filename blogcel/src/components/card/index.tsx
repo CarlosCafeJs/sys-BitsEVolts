@@ -33,10 +33,10 @@ const Card = () => {
           />
         </div>
 
-        <div className="h-26 w-full ">
+        <div className="h-26 w-full bg-amber-600 ">
           <h1>Poco X7 Pro - 250gb</h1>
           <button>Call</button>
-          <p className="">O Poco X7 é um smartphone Android avançado e abrangente em todos os pontos de vista com algumas características excelentes. Tem uma grande tela de 6.67 polegadas com uma resolução de 2712x1220 pixels</p>
+          <p className="truncate">O Poco X7 é um smartphone Android avançado e abrangente em todos os pontos de vista com algumas características excelentes. Tem uma grande tela de 6.67 polegadas com uma resolução de 2712x1220 pixels</p>
         </div>
 
       </div>

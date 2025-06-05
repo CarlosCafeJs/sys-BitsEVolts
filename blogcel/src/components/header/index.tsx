@@ -4,7 +4,8 @@ import Image from "next/image";
 const Header = () => {
   return (
     <header>
-      <div className="w-full h-24 bg-amber-500 flex  justify-center">
+      <div className="relative w-full h-24 bg-amber-500 flex  justify-center">
+        <div className="absolute bottom-0 right-20"><p> Brasilia - Df </p></div>
         <div className="max-w-7xl fixed z-200 backdrop-blur-sm min-w-6xl rounded-b-2xl rounded-t-md m-2 px-2 bg-gray-900/80 text-amber-50 ">
           <ul className="flex justify-center py-2 items-center gap-8">
             <li className="cursor-pointer"><svg width="130" height="45" viewBox="0 0 361 125" fill="none" xmlns="http://www.w3.org/2000/svg">
