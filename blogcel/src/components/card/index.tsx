@@ -3,7 +3,7 @@ import Image from "next/image";
 const Card = () => {
   return (
     <div>
-      <div className="flex flex-col justify-center items-center min-w-89 max-w-94 min-h-86 rounded-2xl">
+      <div className="flex flex-col justify-center items-center w-75  lg:min-w-89 lg:max-w-94 min-h-86 rounded-2xl">
         <div className="flex pt-12 cursor-pointer  relative justify-center items-center w-full h-[300px] bg-gray-950/80 rounded-2xl overflow-hidden">
           {/* Fundo - imagem mais atrás com blur */}
           <Image
