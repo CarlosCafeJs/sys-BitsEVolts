@@ -5,7 +5,7 @@ const SubHeader = () => {
   return (
     <header>
       <div className="w-full flex justify-center">
-        <div className="w-full overflow-hidden  bg-blue-950 text-amber-50 py-2">
+        <div className="w-full overflow-hidden  bg-gray-900 text-amber-50 py-2">
           <div className="border-y-1 border-amber-50">
 
             <Marquee speed={100}>
