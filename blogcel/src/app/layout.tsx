@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Analytics } from '@vercel/analytics/next';
 import Header from "@/components/header/index";
-import SpeedDial from "@/components/speedDial/index"
+import SpeedDial from "@/components/speedDial/index";
 
 export const metadata: Metadata = {
   title: "Bits & Volts",
   description: "O melhor catalogo de celulares do mundo!",
 };
 
-export default function  RootLayout({
+export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -17,12 +18,11 @@ export default function  RootLayout({
     <html lang="pt-br">
       <body>
         <Header />
-      <SpeedDial />
+        <SpeedDial />
         {children}
-
+        <Analytics />
 
       </body>
-      
     </html>
   );
 }
