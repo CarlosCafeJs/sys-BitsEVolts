@@ -6,7 +6,7 @@ import '@splidejs/splide/dist/css/splide.min.css';
 const Banner = () => {
   return (
     <div className="w-full mx-auto h-98 relative flex items-center justify-center overflow-hidden">
-      {/* Imagem de fundo com opacidade */}
+
       <div
         style={{
           position: 'absolute',
@@ -15,17 +15,17 @@ const Banner = () => {
           backgroundRepeat: 'repeat',
           backgroundSize: 'auto',
           backgroundPosition: 'center top',
-          opacity: 0.3, // controle da opacidade da imagem
+          opacity: 0.3,
           zIndex: 0,
         }}
       />
 
-      {/* Gradiente com transparência */}
+
       <div
         style={{
           position: 'absolute',
           inset: 0,
-          background: 'linear-gradient(to bottom, rgba(0,179,255,0.8), rgba(0,179,255,0.5), rgba(255,255,255,0.9))',
+          background: 'linear-gradient(to bottom, rgba(255,255,255, 0.1), rgba(255,255,255,0.8), rgba(255,255,255,1))',
           zIndex: 1,
         }}
       />
